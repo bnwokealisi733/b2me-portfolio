@@ -1,8 +1,8 @@
-# Sudharsan Portfolio
+# Portfolio Project hosted in a container
 
 Simple webpage crafted using pure HTML and CSS. A minimalistic showcase of structure and design.
 
-### Live Link: https://danielace1.github.io/Portfolio/
+### Inspiration Link: https://danielace1.github.io/Portfolio/
 
 ## Features
 

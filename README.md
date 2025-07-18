@@ -26,11 +26,12 @@ Follow the steps below to build the Docker image and run it locally in your brow
 Enter your IDE and open a new terminal.
 
 ```bash
-git clone https://github.com/your-username/portfolio-container.git
-cd portfolio-container
+git clone https://github.com/bnwokealisi733/b2me-portfolio.git
+cd b2me-portfolio
 ```
 
 ### 2. Build the Docker Image
+PS: You'd need to have docker installed on your system for this to work.
 
 ```bash
 docker build -t portfolio-app .
@@ -39,17 +40,17 @@ docker build -t portfolio-app .
 ### 3. Run the Container
 
 ```bash
-docker run -d -p 8080:80 portfolio-app
+docker run -d -p 7272:7272 portfolio-app
 ```
 
-This maps your app to `http://localhost:8080`.
+This maps your app to `http://localhost:7272`.
 
 ### 4. Open in Browser
 
 Go to your browser and visit:
 
 ```
-http://localhost:8080
+http://localhost:7272
 ```
 
 You should see your portfolio app running!
